@@ -35,7 +35,7 @@ Owner = "AakashxDx"
 repo = "https://github.com/AakashxDx/BanallBot"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("Support", "https://t.me/GFC_SUPPORT"), Button.url("Repo", f'{repo}')]
+    buttns = [Button.url("Support", "https://t.me/XavierSupport"), Button.url("Repo", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
@@ -69,7 +69,7 @@ async def start(event):
 
 @main.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("SUPPORT", "https://t.me/GFC_SUPPORT"), Button.url("REPO", f'{repo}')]
+    buttns = [Button.url("SUPPORT", "https://t.me/XavierSupport"), Button.url("REPO", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
@@ -163,7 +163,7 @@ async def leave(z):
 
 
 print("Your Bot  Deployed Successfully ✅")
-print("Join @GFC_SUPPORT if you facing any kind of issue!!")
+print("Join @XavierSupport if you facing any kind of issue!!")
 
 
 
